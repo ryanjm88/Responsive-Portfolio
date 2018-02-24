@@ -423,6 +423,71 @@ nav {
 }
 }
 
+@media screen and (max-width: 980px) {
+  
+  #masthead {
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: 0 0 30px;
+    overflow: auto;
+    color: #fff;
+    background: #fff;
+    border-bottom: 2px solid #ccc;
+  }
+
+  .main-container {
+    width: 980px;
+  }
+
+  #main-container {
+    padding-top: 130px;
+    width: 80%;
+  }
+  .auth-image {
+    float: center;
+    max-width: auto;
+    width: 100%;
+    max-height: auto;
+    height: 100%;
+    margin-top: 10px;
+    margin-right: 25px;
+  }
+
+  .main-section {
+    width: 50%;
+  }
+  
+  .sidebar {
+    width: 40%;
+    float: right;
+    max-width: 768px;
+}
+
+.sidebar h2 {
+  padding-bottom: 20px;
+  margin-bottom: 15px;
+  line-height: 22px;
+  border-bottom: 2px solid #eee;
+}
+
+.work {
+  float: center;
+  max-width: auto;
+  width: 100%;
+  max-height: auto;
+  height: 100%;
+  border: 0 none;
+  opacity: 0.8;
+}
+
+.work:nth-child(even) {
+  margin-right: 10%;
+}
+}
+
 
 
 
